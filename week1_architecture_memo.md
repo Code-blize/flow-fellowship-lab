@@ -85,3 +85,8 @@ This is the fastest and simplest of the four cases, but it is only appropriate w
 Before this week, I understood "distributed training" loosely as "training on more than one machine." What I now understand is that the *reason* for distributing matters as much as the *method*. Hospitals distribute because of privacy. Mobile devices distribute because of consent. Home GPUs distribute because of incentives. Lab clusters distribute because of speed. Each reason leads to a different architecture, different algorithms, and different failure modes.
 
 This distinction is what I will carry into my research proposals.
+
+---
+
+## The Taxonomy Diagram can be accessed through this link: 
+https://docs.google.com/document/d/1BbasKTGZsYqhyfNkC9jL5BKjhrV7ysUOgoaTMpKu960/edit?usp=sharing 
