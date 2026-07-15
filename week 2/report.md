@@ -347,13 +347,13 @@ def set_parameters(self, parameters):
 **Root Cause:** `return` statement placed inside the `for` loop instead of after it.
 
 ```python
-# ❌ Wrong
+#  Wrong
 def fit(self, parameters, config):
     for images, labels in self.trainloader:
         # ... training code ...
         return self.get_parameters(config), len(self.trainloader.dataset), {}
 
-# ✅ Correct
+#  Correct
 def fit(self, parameters, config):
     for images, labels in self.trainloader:
         # ... training code ...
@@ -677,10 +677,10 @@ SGD (lr=0.01):   95.61%  ██████████████████�
 
 | Configuration | Rounds to 95% | Speed Rating |
 |---------------|---------------|--------------|
-| Adam (lr=0.01) | 2 | ⚡ Fastest |
-| SGD (lr=0.1) | 2 | ⚡ Fastest |
-| Adam (lr=0.001) | 3 | 🏃 Fast |
-| SGD (lr=0.01) | 4 | 🐢 Slower |
+| Adam (lr=0.01) | 2 |  Fastest |
+| SGD (lr=0.1) | 2 |  Fastest |
+| Adam (lr=0.001) | 3 |  Fast |
+| SGD (lr=0.01) | 4 |  Slower |
 
 #### Performance Improvement Per Round
 
