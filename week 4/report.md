@@ -535,4 +535,3 @@ Week 4 extends this work by introducing **system reliability and client failure 
 
 
 And yes, when you're ready, I'll also guide you through the **Git commit and push process step by step**. 
-```
